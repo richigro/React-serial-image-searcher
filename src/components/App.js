@@ -1,7 +1,10 @@
 import React from 'react';
+import SearchBar from './SearchBar';
 
-export default function App(props) {
+export default function App() {
     return(
-        <h1>Hello New App</h1>
+        <div>
+            <SearchBar />
+        </div>
     );
 }
