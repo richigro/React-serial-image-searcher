@@ -3,7 +3,11 @@ import React from 'react';
 export default class SearchBar extends React.Component {
     render(){
         return(
-            <input type="text" />
+            <div>
+                <form>
+                    <input type="text" placeholder="Search any image"/>
+                </form>
+            </div>
         );
     }
 }
